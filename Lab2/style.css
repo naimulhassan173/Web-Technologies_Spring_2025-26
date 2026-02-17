@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    background-color: white;
+    width: 210mm;
+    max-width: 850px; 
+    margin: 40px auto;
+    padding: 40px;
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+
+.profile-photo {
+    width: 250px;           
+    height: auto;           
+    max-height: 350px;     
+    float: right;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    
+
+    object-fit: contain;    
+    
+    margin-left: 20px;
+    background-color: #fff; 
+}
+
+.header-text {
+    float: left;
+   
+    width: calc(100% - 280px); 
+    padding-top: 20px;      
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+h1 {
+    color: #8B4513;    
+    font-size: 36px;    
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#student-id {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-weight: bold;  
+}
+
+.section-title {
+    color: #FF7F50;     
+    font-size: 22px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+a {
+    color: #8B4513;
+    text-decoration: none;
+    font-weight: bold;
+}
